@@ -8,9 +8,8 @@
  * @version   1.6.1
  */
 
-if (!class_exists('pdf_parser')) {
-    require_once('pdf_parser.php');
-}
+namespace Galgenjunge\FPDF;
+use Galgenjunge\FPDF\pdf_parser;
 
 /**
  * Class fpdi_pdf_parser
