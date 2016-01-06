@@ -1,7 +1,6 @@
 {
-  "name": "setasign/fpdi",
+  "name": "galgenjunge/fpdi",
   "version": "1.6.1",
-  "homepage": "https://www.setasign.com/fpdi",
   "description": "FPDI with psr0 and namespaces",
   "type": "library",
   "keywords": ["pdf", "fpdi", "fpdf"],
