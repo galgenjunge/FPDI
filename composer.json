@@ -5,6 +5,13 @@
   "type": "library",
   "keywords": ["pdf", "fpdi", "fpdf"],
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Slabon",
+      "email": "jan.slabon@setasign.com",
+      "homepage": "https://www.setasign.com"
+    }
+  ],
   "require": {
      "php": ">=5.3.0"
   },
