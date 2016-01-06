@@ -8,7 +8,7 @@
  * @version   1.6.1
  */
 
-namespace Galgenjunge\FPDF\filters;
+namespace Galgenjunge\FPDI\filters;
 
 /**
  * Class FilterLZW
