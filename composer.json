@@ -23,7 +23,6 @@
   },
   "suggest": {
     "Galgenjunge/FPDF": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
-    "Galgenjunge/fpdi-protect": "Install FPDI-Protection",
-    "Galgenjunge/fpdi-fpdf": "Use this package to automatically evaluate dependencies to FPDF.",
+    "Galgenjunge/fpdi-protect": "Install FPDI-Protection"
   }
 }
