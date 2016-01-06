@@ -9,7 +9,7 @@
  */
 
 namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDF\pdf_parser;
+use Galgenjunge\FPDI\pdf_parser;
 
 /**
  * Class fpdi_pdf_parser
