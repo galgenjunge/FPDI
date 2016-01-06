@@ -8,9 +8,8 @@
  * @version   1.6.1
  */
 
-if (!class_exists('fpdi_bridge')) {
-    require_once('fpdi_bridge.php');
-}
+namespace Galgenjunge\FPDF;
+use Galgenjunge\FPDF\fpdi_bridge;
 
 /**
  * Class FPDF_TPL
