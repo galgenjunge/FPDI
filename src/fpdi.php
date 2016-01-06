@@ -9,7 +9,7 @@
  */
 
 namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDI\FPDF_TPL;
+use Galgenjunge\FPDF\FPDF_TPL;
 
 /**
  * Class FPDI
