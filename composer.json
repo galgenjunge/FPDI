@@ -1,6 +1,6 @@
 {
   "name": "galgenjunge/fpdi",
-  "version": "1.6.1",
+  "version": "dev-master",
   "description": "FPDI with psr0 and namespaces",
   "type": "library",
   "keywords": ["pdf", "fpdi", "fpdf"],
