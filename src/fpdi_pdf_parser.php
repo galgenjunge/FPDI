@@ -8,7 +8,7 @@
  * @version   1.6.1
  */
 
-namespace Galgenjunge\FPDF;
+namespace Galgenjunge\FPDI;
 use Galgenjunge\FPDF\pdf_parser;
 
 /**
