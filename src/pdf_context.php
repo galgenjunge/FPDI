@@ -8,6 +8,8 @@
  * @version   1.6.1
  */
 
+namespace Galgenjunge\FPDF;
+
 /**
  * Class pdf_context
  */
