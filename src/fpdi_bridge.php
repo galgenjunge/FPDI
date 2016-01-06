@@ -17,7 +17,7 @@
  */
 
 namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDI\FPDF;
+use Galgenjunge\FPDF\FPDF;
 
 /**
  * Class fpdi_bridge
