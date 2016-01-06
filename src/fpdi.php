@@ -8,9 +8,8 @@
  * @version   1.6.1
  */
 
-if (!class_exists('FPDF_TPL')) {
-    require_once('fpdf_tpl.php');
-}
+namespace Galgenjunge\FPDF;
+use Galgenjunge\FPDF\fpdf_tpl;
 
 /**
  * Class FPDI
