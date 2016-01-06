@@ -2,7 +2,7 @@
   "name": "setasign/fpdi",
   "version": "1.6.1",
   "homepage": "https://www.setasign.com/fpdi",
-  "description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents and use them as templates in FPDF. Because it is also possible to use FPDI with TCPDF, there are no fixed dependencies defined. Please see suggestions for packages which evaluates the dependencies automatically.",
+  "description": "FPDI with psr0 and namespaces",
   "type": "library",
   "keywords": ["pdf", "fpdi", "fpdf"],
   "license": "MIT",
@@ -13,18 +13,17 @@
       "homepage": "https://www.setasign.com"
     }
   ],
+  "require": {
+     "php": ">=5.3.0"
+  },
   "autoload": {
-    "classmap": [
-      "filters/",
-      "fpdi.php",
-      "fpdf_tpl.php",
-      "fpdi_pdf_parser.php",
-      "pdf_context.php"
-    ]
+    "psr-4": {
+      "Galgenjunge\\FPDI\\": "src/"
+    }
   },
   "suggest": {
-    "setasign/fpdf": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
-    "setasign/fpdi-fpdf": "Use this package to automatically evaluate dependencies to FPDF.",
-    "setasign/fpdi-tcpdf": "Use this package to automatically evaluate dependencies to TCPDF."
+    "Galgenjunge/FPDF": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
+    "Galgenjunge/fpdi-protect": "Install FPDI-Protection",
+    "Galgenjunge/fpdi-fpdf": "Use this package to automatically evaluate dependencies to FPDF.",
   }
 }
