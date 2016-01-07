@@ -17,11 +17,11 @@
   },
   "autoload": {
     "classmap": [
-      "src/filters/",
-      "src/fpdi.php",
-      "src/fpdf_tpl.php",
-      "src/fpdi_pdf_parser.php",
-      "src/pdf_context.php"
+      "src/fpdi/filters/",
+      "src/fpdi/FPDI.php",
+      "src/fpdi/FPDF_TPL.php",
+      "src/fpdi/fpdi_pdf_parser.php",
+      "src/fpdi/pdf_context.php"
     ]
   },
   "suggest": {
