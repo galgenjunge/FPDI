@@ -19,7 +19,7 @@
     "classmap": [
       "src/fpdi/filters/",
       "src/fpdi/fpdi.php",
-      "src/fpdi/fpdi_tpl.php",
+      "src/fpdi/fpdf_tpl.php",
       "src/fpdi/fpdi_bridge.php",
       "src/fpdi/fpdi_pdf_parser.php",
       "src/fpdi/pdf_context.php",
