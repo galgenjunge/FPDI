@@ -18,10 +18,12 @@
   "autoload": {
     "classmap": [
       "src/fpdi/filters/",
-      "src/fpdi/FPDI.php",
-      "src/fpdi/FPDF_TPL.php",
+      "src/fpdi/fpdi.php",
+      "src/fpdi/fpdi_tpl.php",
+      "src/fpdi/fpdi_bridge.php",
       "src/fpdi/fpdi_pdf_parser.php",
-      "src/fpdi/pdf_context.php"
+      "src/fpdi/pdf_context.php",
+      "src/fpdi/pdf_parser.php"
     ]
   },
   "suggest": {
