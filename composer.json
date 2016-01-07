@@ -16,10 +16,13 @@
      "php": ">=5.3.0"
   },
   "autoload": {
-    "psr-0": {
-      "fpdi\\": "src/",
-      "fpdi\\filters\\": "src/filters/"
-    }
+    "classmap": [
+      "filters/",
+      "fpdi.php",
+      "fpdf_tpl.php",
+      "fpdi_pdf_parser.php",
+      "pdf_context.php"
+    ]
   },
   "suggest": {
     "Galgenjunge/FPDF": "FPDI will extend this class but as it is also possible to use \"tecnickcom/tcpdf\" as an alternative there's no fixed dependency configured.",
