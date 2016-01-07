@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "fpdi": "src/",
+      "fpdi\\": "src/",
       "fpdi\\filters": "src/filters/"
     }
   },
