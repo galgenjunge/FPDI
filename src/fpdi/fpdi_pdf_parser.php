@@ -8,8 +8,8 @@
  * @version   1.6.1
  */
 
-namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDI\pdf_parser;
+namespace fpdi;
+use fpdi\pdf_parser;
 
 /**
  * Class fpdi_pdf_parser

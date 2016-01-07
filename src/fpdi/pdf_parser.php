@@ -8,7 +8,7 @@
  * @version   1.6.1
  */
 
-namespace Galgenjunge\FPDI;
+namespace fpdi;
 
 /**
  * Class pdf_parser

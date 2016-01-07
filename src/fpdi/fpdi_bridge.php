@@ -16,8 +16,8 @@
  * This way it is possible to use FPDI for both FPDF and TCPDF with one FPDI version.
  */
 
-namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDF\FPDF;
+namespace fpdi;
+use fpdf\FPDF;
 
 /**
  * Class fpdi_bridge

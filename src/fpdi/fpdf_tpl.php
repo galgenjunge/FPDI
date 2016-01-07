@@ -8,8 +8,8 @@
  * @version   1.6.1
  */
 
-namespace Galgenjunge\FPDI;
-use Galgenjunge\FPDI\fpdi_bridge;
+namespace fpdi;
+use fpdi\fpdi_bridge;
 
 /**
  * Class FPDF_TPL
